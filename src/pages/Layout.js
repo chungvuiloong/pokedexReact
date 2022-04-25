@@ -1,14 +1,16 @@
 import React from 'react';
-import Header from './src/components/Header';
-import Main from './src/components/Main';
-import Footer from './src/components/Footer';
+
+import Header from '../components/Header';
+// import Header from './src/components/Header';
+import Main from '../components/Main';
+import Footer from '../components/Footer';
 
 const Layout = () => {
     return (
     <div>
-        <Header></Header>
-        <Main></Main>
-        <Footer></Footer>
+        <Header/>
+        <Main/>
+        <Footer/>
     </div>  
     );
 };

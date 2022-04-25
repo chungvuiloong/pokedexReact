@@ -1,10 +1,12 @@
 import React from 'react';
-import Nav from '.nav';
+import Nav from './Nav'
+// import Nav from '.Nav';
 
 const Header = () => {
     return ( 
     <div>
-        <Nav></Nav>
+        Pokedex
+        <Nav/>
     </div> 
     );
 }
