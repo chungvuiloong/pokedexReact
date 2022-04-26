@@ -36,7 +36,8 @@ class PokeList extends Component {
             key={p.name}
             // image={p.sprites.other.dream_world.front_default}
             image={
-              p.sprites.versions['generation-v']['black-white'].front_default
+              p.sprites.other.dream_world["front_default"]
+              // p.sprites.versions['generation-v']['black-white'].front_default;
             }
           />
         ))}

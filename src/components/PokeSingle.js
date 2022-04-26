@@ -19,8 +19,11 @@ class PokeSingle extends Component {
     return (
       <div>
         <h3>{this.state.data.name}</h3>single Pokemon will be here
+
+        {/* result.sprites.other.dream_world["front_default"] */}
         <img
-          src={this.state.data.sprites?.other.dream_world.front_default}
+          // src={this.state.data.sprites?.other.dream_world.front_default}
+          src={this.state.data.sprites?.other.dream_world["front_default"]}
           alt={this.state.data.name}
         />
       </div>

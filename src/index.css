@@ -46,7 +46,7 @@ li {
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 1rem;
 }
 
@@ -56,11 +56,21 @@ li {
   background: white;
   color: #333;
   cursor: pointer;
-  height: auto;
   text-align: center;
   padding: 1rem;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
+
 img {
   height: 200px;
   width: 100%;
+}
+
+.pokeImg {
+  height: 100px;
+  width: 100%;
+  object-fit: contain;
 }
