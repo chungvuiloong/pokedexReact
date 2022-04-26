@@ -1,11 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 const PokeSingle = () => {
-
-    return (
-      <div>PokeSingle</div>
-    )
-
+  return <div>single Pokemon will be here</div>;
 };
 
 export default PokeSingle;
