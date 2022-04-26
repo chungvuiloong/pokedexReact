@@ -1,14 +1,11 @@
-import React from 'react';
-import {useParams} from 'react-router-dom';
+import React, { Component } from 'react'
 
-const PokeSingle = () => {
-  let params = useParams();
-  console.log(params);
-  return (
-    <div>
-          <h3>{params.name}</h3>
-    </div>
-  );
-};
-
-export default PokeSingle;
+export default class PokeSingle extends Component {
+  render() {
+    return (
+      <div>
+        <h3>{this.props.params.pokesingle}</h3>
+      </div>
+    );
+  }
+}
