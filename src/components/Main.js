@@ -1,12 +1,12 @@
 import React from 'react';
-import {Outlet} from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 
 const Main = () => {
-    return ( 
+  return (
     <main>
-        <Outlet/>
-    </main> 
-    );
-}
- 
+      <Outlet />
+    </main>
+  );
+};
+
 export default Main;
