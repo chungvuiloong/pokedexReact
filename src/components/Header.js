@@ -4,10 +4,10 @@ import Nav from './Nav'
 
 const Header = () => {
     return ( 
-    <div>
-        Pokedex
+    <header>
+        Header will be here
         <Nav/>
-    </div> 
+    </header> 
     );
 }
  

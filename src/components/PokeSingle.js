@@ -1,7 +1,14 @@
 import React from 'react';
+import {Link, Outlet} from 'react-router-dom';
 
 const PokeSingle = () => {
-  return <div>single Pokemon will be here</div>;
+  return (
+    <div>POkemon will be here 
+        <Link to="/pokesingle">
+          single Pokemon will be here
+        </Link>
+    </div>
+  );
 };
 
 export default PokeSingle;
