@@ -16,11 +16,11 @@ function App() {
         <SwitchR>
             <Route path="/"         element={<Layout/>}>
               <Route index        element={<Home/>}/>
-              <Route path="/favlist"  element={<FavList/>}/>
-              <Route path="/pokelist" element={<PokeList/>}> 
-                <Route path="/pokelist/pokesingle" element={<PokeSingle/>}/>
+              <Route path="favlist"  element={<FavList/>}/>
+              <Route path="pokelist" element={<PokeList/>}> 
+                <Route path="pokelist/:pokesingle" element={<PokeSingle/>}/>
               </Route>
-              <Route path="/about"    element={<About/>}/>
+              <Route path="about"    element={<About/>}/>
             </Route>
         </SwitchR>
       </BRouter>
