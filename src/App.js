@@ -7,14 +7,12 @@ import FavList from './components/FavList';
 import PokeList from './components/PokeList';
 import PokeSingle from './components/PokeSingle';
 import {useParams} from 'react-router-dom';
-
 import {BrowserRouter as BRouter, Routes as SwitchR, Route} from 'react-router-dom';
 
 
 const RouterWrapper = (props) => {
   const params = useParams();
   return <PokeSingle params={params} {...props} />;
-
 }
 
 function App() {
