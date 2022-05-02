@@ -16,6 +16,7 @@ class PokeList extends Component {
         const fetches = data.results.map((p) => {
           return fetch(p.url).then((res) => res.json());
         });
+        
         Promise.all(fetches).then((res) => {
           console.log(res);
           this.setState({ data: res, isLoading: false });
